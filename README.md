@@ -36,6 +36,8 @@ const attributeArrayF32List = [...]; // List of Float32Arrays for each instance
 renderEngine.render({ attributeArrayF32List, numInstances });
 ```
 
+The RenderEngine class contains a contextLost flag that can be validated in the render loop to reinitialize the Render component when needed. 
+
 ### Customization
 
 Replace default shaders by providing your own vertex and fragment shader sources during initialization:
