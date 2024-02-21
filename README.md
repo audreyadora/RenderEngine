@@ -3,7 +3,7 @@
 
 ## Overview
 
-RenderEngine is a simple WebGL2 TypeScript rendering engine that leverages vertex attribute instancing. This engine is designed for efficiently rendering instances of vertex primitives with custom attributes while minimizing boilerplate and GL state management. 
+This RenderEngine is a WebGL2 TypeScript rendering engine component that leverages vertex attribute instancing. This engine is designed for efficiently rendering instances of vertex primitives with custom attributes while minimizing boilerplate and GL state management. 
 
 ## Features
 
