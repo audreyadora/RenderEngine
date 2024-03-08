@@ -60,7 +60,7 @@ const customRenderEngine = new RenderEngine({
 
 ### Examples
 
-General example component class implementation:
+General example component class implementation which handles contextLost and canvas resize events:
 ```typescript 
 import { RenderEngine } from '../RenderEngine/RenderEngine';
 
